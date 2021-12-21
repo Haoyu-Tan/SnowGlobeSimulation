@@ -2,7 +2,22 @@
 
 ## Introduction
 
-## Instruction
+## User Instruction
+### Executable File
+For Windows, there is an executable file named **Snow Globe Simulation.exe** in the ./Snow_Globe_EXE folder. Double click on this .exe file to run the simulation
+
+### Commands
+#### Keyboard Interaction
+* ‘w’, ’s’  - Move the camera to the front or back
+*  ‘a’, ’d’ - Move the camera to the left or right
+* Arrow up/ Arrow down - Rotate the camera to up or down
+* Arrow left/ Arrow right - Rotate the camera to right or left
+#### Mouse Interaction
+* When mouse is on the object which could be interacted, there is an indicator on top of it
+* You can use the mouse to click and drag the snow globe on the table.
+* When you click the green button, the light and music will turn on and off based on current status.
+* When you click the red button, the snow globe will change status.
+
 
 ## Implementation
 ### Step 1 - Water Particles
