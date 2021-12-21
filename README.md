@@ -76,9 +76,9 @@ Another limitation we notice is that snow particles are easily distributed off t
 
 Besides the above limitation we noticed, we also received some feedback that we think worthy to have a try in the future.
 
-*First, currently our snow particles do not stay long and accumulate on the surface of models. In the future, we can add some frictions on snow particles so they are able to stay on the surfaces of models and naturally pile together.
+* First, currently our snow particles do not stay long and accumulate on the surface of models. In the future, we can add some frictions on snow particles so they are able to stay on the surfaces of models and naturally pile together.
 
-*Second, we only add 2D interaction on our snow globe for shaking. We can extend the interaction to 3D so users are able to freely interact and shake the snow globe in any dimension.
+* Second, we only add 2D interaction on our snow globe for shaking. We can extend the interaction to 3D so users are able to freely interact and shake the snow globe in any dimension.
 
 ## References
 ### Reference Paper and Project:
