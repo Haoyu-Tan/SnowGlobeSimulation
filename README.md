@@ -18,6 +18,7 @@ For Windows, there is an executable file named **Snow Globe Simulation.exe** in 
 * When you click the green button, the light and music will turn on and off based on current status.
 * When you click the red button, the snow globe will change status.
 
+## Side-by-Side Video
 
 ## Implementation
 ### Step 1 - Water Particles
@@ -60,3 +61,17 @@ After the second step, we generated about 500 snow particles based on about 250 
 
 ### Step 4 - Functions
 For the last step, we implemented functions like shaking the globe and changing the mode of the globe to improve the user experience.
+
+## Comparison with State of the Art
+
+## Limitations and Future Works
+
+## References
+### Reference Paper and Project:
+
+1. Simon Clavet, Philippe Beaudoin, and Pierre Poulin. 2005. Particle-based viscoelastic water simulation. In Proceedings of the 2005 ACM SIGGRAPH/Eurographics symposium on Computer animation (SCA '05). Association for Computing Machinery, New York, NY, USA, 219–228. 
+2. Teschner M., Heidelberger B., Mueller M., Pomeranets D., Gross M.: Optimized spatial hashing for collision detection of deformable objects. In Vision, Modeling, and Visualization(2003), 47-54
+3. Snow Globe 2 (3D Fluid and Particle now in a Globe)
+Link: http://johnmturner.com/cvpages/sim/simProj9.html
+
+### Prefabs, Textures and Music
