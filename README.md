@@ -26,7 +26,28 @@ Based on our observation, the snow globes are usually filled with fluids. In our
 ### Step 2 - Snow Particles
 In this step, we implement the snow particles based on the water particles we have. We observed that in some snow globes with swirling water, the snow particles inside the water have similar motion as the water.  From this feature, we assumed that the trajectory of a snow particle could be majorly affected by three different facts: the motion of the waters nearby, the motion of the snow particle neighbors, and other forces (e.g., gravity).
 
-To calculate the influence of snow particle trajectory which comes from motion of the waters nearby, we used a method similar to the double density relaxation step described in the 2005 paper. In our implementation, only water particles inside a chosen range of a snow particle can affect the motion of the snow particle. The equation we used is shown below.
+To calculate the influence of snow particle trajectory which comes from motion of the waters nearby, we proposed a method similar to the double density relaxation step of the 2005 paper. In our implementation, only water particles inside a chosen range of a snow particle can affect the motion of the snow particle. In order to generate a good simulation, we tried 3 different versions of equations here.
+
+**Version 1**
+
+![image](https://user-images.githubusercontent.com/81786534/146888997-54750d53-950e-424a-8c60-fd1f417cf338.png)
+
+In this version, while calculating the velocity change caused by the neighbor water particles for snow particles index i. Here, NWPI here stands for neighbor water particle indexes of snow particle i. For each pair of  snow particle i and water particle j, we use the distance factor, calculated from the distance between them. We multiplied the distance factor on the velocity of water particle j to calculate the effect of water particle j on snow particle i. We took the average of these effects calculated, multiplied it with coefficient K, and used it as the overall effect of neighbor water particles on snow particle i. 
+
+This method is on the right track, however, as the effect is calculated based on the velocity of the water particles, the snow particles could be accelerated too much. This is why we came up with Equation Version 2.
+
+**Version 2**
+
+![image](https://user-images.githubusercontent.com/81786534/146889069-deb1cc6b-9d0c-45f2-9e81-6862a3d14551.png)
+
+In this version, we used the difference of velocity between the water particle j and snow particle i instead of the velocity of water particle j. The idea behind this is: the snow particle, under the influence of water, will finally have the same velocity as the water surrounding it. This method solves the overspeed problem in Version 1. However, the simulation is still not good because the performance of each snow particle still lacks characteristics. To improve the simulation, we came up with Equation Version 3. 
+
+**Version 3**
+
+![image](https://user-images.githubusercontent.com/81786534/146889119-3148256c-09dd-4e0b-8867-43b610a2665a.png)
+
+In this version, we used the sum of water effects instead of the average of water effects.We chose a smaller coefficient K to balance the result.  Using the sum of water effects allows the result to be divergent for each snow particle. This is also the final version of the equation we implemented in our project.
+
 
 We updated the position of snow particles using the updated velocity and we implemented the double density relaxation among our snow particles. This will allow the snow particles to achieve some fluid-like features. The neighboring snow particles now could have similar behaviors and they will not be too close to each other.
 
