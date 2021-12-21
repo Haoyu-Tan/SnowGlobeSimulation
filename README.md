@@ -11,7 +11,7 @@ For Windows, there is an executable file named **Snow Globe Simulation.exe** in 
 * ‘w’, ’s’  - Move the camera to the front or back
 *  ‘a’, ’d’ - Move the camera to the left or right
 * Arrow up/ Arrow down - Rotate the camera to up or down (X-axis)
-* Arrow left/ Arrow right - Rotate the camera to right or left (Y-axis)
+* Arrow left/ Arrow right - Rotate the camera to left or right (Y-axis)
 #### Mouse Interaction
 * When mouse is on the object which could be interacted, there is an indicator on top of it
 * You can use the mouse to click and drag the snow globe on the table.
