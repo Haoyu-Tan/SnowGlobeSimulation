@@ -65,6 +65,17 @@ For the last step, we implemented functions like shaking the globe and changing 
 ## Comparison with State of the Art
 
 ## Limitations and Future Works
+There are several limitations in our simulation.
+
+One limitation is although we added the spatial data structure to improve the performance of simulation, the amount of snow particles we have is still much lesser than that in reality. We found most of the time spent on this simulation was to find the neighbors of each particle and calculate the distance between them. We did this process every frame several times as described in the implementation section. For future work, we either need to think out a way to further reduce the number of this process or look for more advanced data structures to allow us to have more number of both water and snow particles while keeping at a reasonable frame rate.
+
+Another limitation we notice is that snow particles are easily distributed off the center. The reason behind this phenomenon might be the water particles in the center push their neighbors out and these impacted water particles then further push the snow particles. For future works, we can try and add a small force to push the snow particles toward the center.
+
+Besides the above limitation we noticed, we also received some feedback that we think worthy to have a try in the future.
+
+First, currently our snow particles do not stay long and accumulate on the surface of models. In the future, we can add some frictions on snow particles so they are able to stay on the surfaces of models and naturally pile together.
+
+Second, we only add 2D interaction on our snow globe. We can extend the interaction to 3D so users are able to freely interact and shake the snow globe in any dimension.
 
 ## References
 ### Reference Paper and Project:
