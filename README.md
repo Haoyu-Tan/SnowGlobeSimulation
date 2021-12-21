@@ -20,6 +20,8 @@ For Windows, there is an executable file named **Snow Globe Simulation.exe** in 
 
 ## Side-by-Side Video
 
+https://youtu.be/AmqCdvWFfCk
+
 ## Implementation
 ### Step 1 - Water Particles
 Based on our observation, the snow globes are usually filled with fluids. In our implementation, we first filled our snow globe with water using SPH water technique. We also observed that the fluid inside the fully filled snow globe is not “visible” from outside so we do not render the water particles in our scene. After tunning the parameters, we have about 250 water particles in the snow globe.
