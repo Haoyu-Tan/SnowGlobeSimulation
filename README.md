@@ -64,6 +64,9 @@ For the last step, we implemented functions like shaking the globe and changing 
 
 ## Comparison with State of the Art
 
+The only work we found related to the simulation inside a globe is a project proposed by John Turner[3]. Similar to our idea, Turner implemented the particle-based snowflake and fluids. However, different from our project which implemented SPH water, Turner implemented the fluid using the 3D grid-based Eulerian fluid solver. We chose the particle based method because it is simple, straight forward, and guarantees mass conservation. For snow globe interaction, Turner added mouse click to apply drag force to the walls of the globe without moving the globe. In other words, the mouse click added drag force to the Eulerian bounding of the globe. Different from Turner’s implementation, we directly applied force onto the snow particles when the snow globe was shaken. For collision detection, Turner did the check using the spherical collider of the globe. Besides handling the collision between particles and the spherical globe, we also handle collision between snow particles and models in the globes. In conclusion, the method we used is more straightforward, easy to understand and follows the physical rules. However, the number of particles we could have in the snow globe was significantly lesser than Turner’s simulation. 
+
+
 ## Limitations and Future Works
 There are several limitations in our simulation.
 
