@@ -89,3 +89,12 @@ Besides the above limitation we noticed, we also received some feedback that we 
 Link: http://johnmturner.com/cvpages/sim/simProj9.html
 
 ### Prefabs, Textures and Music
+1. https://assetstore.unity.com/packages/3d/props/3d-wooden-chess-set-183336
+2. https://assetstore.unity.com/packages/3d/props/furniture/table-with-chairs-x3-free-101246
+3. https://assetstore.unity.com/packages/2d/textures-materials/4-snow-materials-high-quality-materials-collection-69201
+4. https://assetstore.unity.com/packages/2d/textures-materials/wood/wooden-floor-materials-150564
+5. https://assetstore.unity.com/packages/2d/textures-materials/sky/10-skyboxes-pack-day-night-32236
+6. https://assetstore.unity.com/packages/tools/particles-effects/arrow-waypointer-22642
+7. https://assetstore.unity.com/packages/3d/props/exterior/low-poly-brick-houses-131899
+8. https://assetstore.unity.com/packages/3d/characters/low-poly-winter-pack-78938
+9. https://freemusicarchive.org/music/Scott_Holmes/christmas-background-music/jingle-bells-2
