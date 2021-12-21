@@ -1,7 +1,7 @@
 # SnowGlobeSimulation
 
 ## Introduction
-For this final project, we implemented the snow globe simulation majorly based on the technique of SPH Water and Spatial Data Structure. Our implementation of snow globe contains two layers. The first layer contains all the water particles and the second layer contains all the snow particles. The first layer is not rendered, however, it will influence the snow particles in the second layers.
+For this final project, we implemented the snow globe simulation majorly based on the technique of SPH Water and Spatial Data Structure. Our implementation of snow globe contains two layers. The first layer contains all the water particles and the second layer contains all the snow particles. The first layer is not rendered, however, it will influence the snow particles in the second layer.
 
 ## User Instruction
 ### Executable File
