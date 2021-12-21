@@ -36,7 +36,7 @@ To calculate the influence of snow particle trajectory which comes from motion o
 
 In this version, while calculating the velocity change caused by the neighbor water particles for snow particles index i. Here, NWPI here stands for neighbor water particle indexes of snow particle i. For each pair of  snow particle i and water particle j, we use the distance factor, calculated from the distance between them. We multiplied the distance factor on the velocity of water particle j to calculate the effect of water particle j on snow particle i. We took the average of these effects calculated, multiplied it with coefficient K, and used it as the overall effect of neighbor water particles on snow particle i. 
 
-This method is on the right track, however, as the effect is calculated based on the velocity of the water particles, the snow particles could be accelerated too much. This is why we came up with Equation Version 2.
+This method is on the right track. Nonetheless, as the effect is calculated based on the velocity of the water particles, the snow particles could be accelerated too much. This is why we came up with Equation Version 2.
 
 **Version 2**
 
