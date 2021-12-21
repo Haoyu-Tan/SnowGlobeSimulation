@@ -1,7 +1,8 @@
 # SnowGlobeSimulation
 
+## Introduction
 
-
+## Instruction
 
 ## Implementation
 ### Step 1 - Water Particles
