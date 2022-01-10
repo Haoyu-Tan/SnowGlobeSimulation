@@ -1,7 +1,7 @@
 # SnowGlobeSimulation
 
 ## Introduction
-For this final project, we implemented the snow globe simulation majorly based on the technique of SPH Water and Spatial Data Structure. Our implementation of snow globe contains two layers. The first layer contains all the water particles and the second layer contains all the snow particles. The first layer is not rendered, however, it will influence the snow particles in the second layer.
+For this final project, we implemented the snow globe simulation majorly based on the technique of SPH Water and Spatial Data Structure. Our implementation of snow globe contains two layers. The first layer contains the water particles and the second layer contains the snow particles. The first layer is not rendered, however, it will impact the motion of snow particles in the second layer.
 
 ## User Instruction
 ### Executable File
@@ -30,7 +30,7 @@ Link: https://youtu.be/AmqCdvWFfCk
 Based on our observation, the snow globes are usually filled with fluids. In our implementation, we first filled our snow globe with water using SPH water technique. We also observed that the fluid inside the fully filled snow globe is not “visible” from outside so we do not render the water particles in our scene. After tunning the parameters, we have about 250 water particles in the snow globe.
 
 ### Step 2 - Snow Particles
-In this step, we implement the snow particles based on the water particles we have. We observed that in some snow globes with swirling water, the snow particles inside the water have similar motion as the water.  From this feature, we assumed that the trajectory of a snow particle could be majorly affected by three different facts: the motion of the waters nearby, the motion of the snow particle neighbors, and other forces (e.g., gravity).
+In this step, we added the snow particles on the water particles we have. We observed that in some snow globes with swirling water, the snow particles inside the water have similar motion as the water. Based on this feature, we assumed that the trajectory of a snow particle could be majorly affected by three different facts: the motion of the waters nearby, the motion of the snow particle neighbors, and other forces (e.g., gravity).
 
 To calculate the influence of snow particle trajectory which comes from motion of the waters nearby, we proposed a method similar to the double density relaxation step of the 2005 paper[1]. In our implementation, only water particles inside a chosen range of a snow particle can affect the motion of the snow particle. In order to generate a good simulation, we tried 3 different versions of equations here.
 
