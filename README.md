@@ -21,7 +21,9 @@ For Windows, there is an executable file named **Snow Globe Simulation.exe** in 
 
 ## Side-by-Side Video
 
-https://youtu.be/AmqCdvWFfCk
+Link: https://youtu.be/AmqCdvWFfCk
+
+[![67795320827db5b9e0b8aa37b4785f4](https://user-images.githubusercontent.com/35856355/148736614-46daf189-1bab-4f2c-9db0-be879a2b29b6.png)](https://youtu.be/AmqCdvWFfCk)
 
 ## Implementation
 ### Step 1 - Water Particles
