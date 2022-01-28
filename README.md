@@ -19,11 +19,11 @@ For Windows, there is an executable file named **Snow Globe Simulation.exe** in 
 * When you click the green button, the light and music will turn on and off based on current status.
 * When you click the red button, the snow globe will change status.
 
-## Side-by-Side Video
+## Demo
 
-Link: https://youtu.be/AmqCdvWFfCk
+Link: https://youtu.be/4-0VpZWncjQ
 
-[![67795320827db5b9e0b8aa37b4785f4](https://user-images.githubusercontent.com/35856355/148736614-46daf189-1bab-4f2c-9db0-be879a2b29b6.png)](https://youtu.be/AmqCdvWFfCk)
+[![67795320827db5b9e0b8aa37b4785f4](https://user-images.githubusercontent.com/35856355/148736614-46daf189-1bab-4f2c-9db0-be879a2b29b6.png)](https://youtu.be/4-0VpZWncjQ)
 
 ## Implementation
 ### Step 1 - Water Particles
